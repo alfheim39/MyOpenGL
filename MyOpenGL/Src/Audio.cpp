@@ -37,6 +37,5 @@ namespace Audio {
 	*/
 	bool Initialize(const char* acfPath, const char* acbPath, const char* awbPath, const char* dspBusName) {
 		criErr_SetCallback(ErrorCallback);
-
 	}
 }
